@@ -1,0 +1,15 @@
+.DS_Store
+.idea/
+pkg/
+Gemfile.lock
+*.swp
+*~
+.rvmrc
+*.so
+tmp/*
+Gemfile.lock
+
+core/target
+core/dependency-reduced-pom.xml
+
+!.gitkeep

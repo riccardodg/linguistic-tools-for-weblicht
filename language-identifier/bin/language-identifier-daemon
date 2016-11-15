@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+
+require 'opener/daemons'
+
+controller = Opener::Daemons::Controller.new(
+  :name      => 'opener-language-identifier',
+  :exec_path => File.expand_path("../../exec/language-identifier.rb", __FILE__)
+)
+
+controller.run

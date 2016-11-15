@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require_relative '../lib/opener/language_identifier'
+
+cli = Opener::LanguageIdentifier::CLI.new
+
+cli.run
